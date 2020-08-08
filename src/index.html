@@ -1,0 +1,91 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="..\js\jquery.min.js"></script>
+    <script type="text/javascript" src="..\js\bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+<style>
+.th {
+  position: absolute;
+transition: transform .2s; 
+  top: 40px;
+font-family:Segoe Print;
+  left: 50px;
+
+ color:yellow;
+ -ms-transform: rotate(278deg); /* IE 9 */
+  transform: rotate(342deg);
+  text-shadow: 1px 3px #8CF7F2;
+  font-size: 25px;
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+.th:hover{
+
+transform: scale(1.1);
+ -ms-transform: rotate(278deg); /* IE 9 */
+  transform: rotate(350deg);
+font-size: 40px
+}
+
+.blink {
+      animation: blinker 1s linear infinite;
+      color: yellow;
+      font-size: 26px;
+      font-weight: bold;
+    
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #F4F967, 0 0 20px #F4F967 , 0 0 30px #F4F967, 0 0 40px #F4F967, 0 0 50px red, 0 0 60px white, 0 0 70px 0C0A0A;
+  }
+  
+  to {
+    text-shadow: 0 0 20px red, 0 0 30px #ff4da6, 0 0 40px #EEE972, 0 0 50px red, 0 0 60px #EEE972, 0 0 70px red, 0 0 80px #F4F967;
+  }}
+
+
+
+</style>
+<body>
+    <div class="cover">
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            
+          </div>
+        </div>
+      </div>
+      <div class="cover-image" style="background-image: url(https://ak.picdn.net/shutterstock/videos/6831259/thumb/12.jpg);"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center" >
+            <h1><font color="yellow" >Personal Expense Manager</font></h1>
+ <b>  <p><font color="#ffb217">A personal expense tracker to manage your money.....</font></p></b>
+            <br>
+            <br>
+            <a class="btn btn-lg btn-primary" href="mainpage.php">Proceed</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <b>
+
+
+<div class="th">
+<p class="blink">Expense Tracker<br>Developed by <br> <a href="https://github.com/hemanth-07-11" target=_blank><b><font color="yellow"> HEMANTH N </font></b></a></p>
+</div>
+</b>
+
+  
+
+</body></html>
